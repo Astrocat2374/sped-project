@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.child {
+    border: 2px solid black;
+    width: 65%;
+    height: 35%;
+}
+
+.child2 {
+    border: 2px solid black;
+    width: 50%;
+    height: 10%;
+    align-self: center;
+
+}
+
