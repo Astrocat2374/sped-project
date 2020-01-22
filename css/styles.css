@@ -1,21 +1,30 @@
-.container {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.child {
+#register-form {
     border: 2px solid black;
-    width: 65%;
-    height: 35%;
+    width: 80%;
+    max-width: 500px;
+    min-width: 150px;
+    height: 500px;
+    display: flex;
+    align-items: center;  
 }
 
-.child2 {
-    border: 2px solid black;
-    width: 50%;
-    height: 10%;
-    align-self: center;
-
+#register-box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%
 }
 
+.text-input {
+    border: 2px solid black;
+    width: 100%;
+    height: 7%;
+    
+}
