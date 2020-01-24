@@ -22,7 +22,7 @@ body {
     width: 80%;
     max-width: 500px;
     min-width: 150px;
-    height: 600px;
+    min-height: 650px;
     display: flex;
     align-items: center;
     background-color: white;
@@ -32,7 +32,6 @@ body {
   .text-input {
     border: 1px solid black;
     width: 78%;
-    height: 7%;
     padding-left: 1%;
     
     
@@ -75,4 +74,9 @@ body {
   
   .font {
     font-family: 'Roboto Slab';
+  }
+
+  #ninelines {
+      align-self:center;
+      text-align: center;
   }
