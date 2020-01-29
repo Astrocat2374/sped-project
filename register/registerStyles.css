@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #135B7F;
   }
   
   #register-box {
@@ -18,25 +19,32 @@ body {
   }
   
   #register-form {
-    border: 2px solid black;
+   
     width: 80%;
     max-width: 500px;
     min-width: 150px;
     min-height: 650px;
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: #FFC857;
+    border-radius: 25px;
+    box-shadow: 0 3px 3px 0 black;
+    
     
   }
-  
+    
   .text-input {
     border: 1px solid black;
+    border-radius: 2px;
     width: 78%;
-    padding-left: 1%;
+    padding-left: 2%;
+    font-size: 22px;
+    font-family: 'Roboto Slab';
+    
     
     
   }
-  
+
   .label {
     align-self: flex-start;
     padding-left: 10%;
@@ -46,7 +54,7 @@ body {
   }
   
   .button {
-    background-color: #63ADF2; 
+    background-color: #1672A0; 
     border: none;
     color: black;
     padding: 15px 32px;
@@ -58,8 +66,10 @@ body {
     text-decoration-color: white;
     -webkit-transition-duration: 0.4s;
      transition-duration: 0.4s;
-     box-shadow: 0 9px #999;
+     box-shadow: 0 9px rgb(77, 77, 77);
      border-radius: 5px;
+    color: white;
+    font-size: 20px;
          
   }
   
@@ -68,15 +78,22 @@ body {
   }
   
   .button:active {
-    box-shadow: 0 5px #666;
+    box-shadow: 0 5px black;
+    background-color: #084C61;
   transform: translateY(4px);
   }
   
   .font {
     font-family: 'Roboto Slab';
+    font-size: 18px;
   }
 
   #ninelines {
       align-self:center;
       text-align: center;
+      
   }
+
+  /* color pallette https://coolors.co/177e89-084c61-c6322d-ffc857-323031 */
+  
+  
