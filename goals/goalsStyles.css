@@ -1,7 +1,9 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 100vh;
     background-color: #135B7F;
 }
@@ -30,25 +32,37 @@ body {
 #goalsBox {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    width: 600px;
+    height: auto;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .otherlabel {
     align-self: flex-start;
     font-family: 'Roboto Slab';
+    color: white;
     font-size: 100%;
     font-weight: 600;
   }
 
-  .text-input {
-    border: 1px solid black;
-    border-radius: 2px;
-    width: 78%;
-    padding-left: 2%;
-    font-size: 30px;
-    font-family: 'Roboto Slab';
+
+  .commentBox {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+  }
+
+  form {
+      display: flex;
+      flex-wrap: wrap;
+      
+  }
+  
+  #Comment {
+      padding-left: 10px;
+  }
+
+  #goalPercent {
+      padding-left: 10px;
   }
