@@ -8,16 +8,16 @@ body {
     background-color: #135B7F;
 }
 #weekBox {
-    background-color: #1672A0; 
+    background-color: #FFC857; 
     border: solid black;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
     font-family: 'Roboto Slab';
-    text-decoration-color: white;
+    text-decoration-color: black;
 
 }
 
@@ -25,14 +25,14 @@ body {
     width: 40px;
     font-size: 27px;
     font-family: 'Roboto Slab';
-    background-color: #027dba;
-    color: white;
+    background-color: #FFC857;
+    color: black;
 }
 
 #goalsBox {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 700px;
     height: auto;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@ body {
     align-self: flex-start;
     font-family: 'Roboto Slab';
     color: white;
-    font-size: 100%;
+    font-size: 25px;
     font-weight: 600;
   }
 
@@ -60,9 +60,36 @@ body {
   }
   
   #Comment {
-      padding-left: 10px;
+      padding-left: 25px;
+
   }
 
   #goalPercent {
       padding-left: 10px;
   }
+
+  .commentBox {
+      border:2px solid black;
+      border-radius: 2px;
+  }
+
+  input[type=number] {
+    width: 35px;
+    height: 25px;
+    font-size: 18px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 2px;
+    text-align: center;
+    font-family: 'Roboto Slab';
+  }
+
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+  
